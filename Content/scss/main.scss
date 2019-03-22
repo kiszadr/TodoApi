@@ -7,7 +7,7 @@
     margin-top: 50px;
 }
 
-.App__searchInput {
+.App__input {
     padding: 8px;
     display: block;
     border: none;
@@ -51,4 +51,14 @@
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
+}
+
+.App__newTodoWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+    .App__input {
+        width: 80%;
+    }
 }

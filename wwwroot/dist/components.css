@@ -1,0 +1,50 @@
+.App {
+  max-width: 70%;
+  margin: auto;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 50px; }
+
+.App__input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box; }
+
+.App__table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 25px; }
+  .App__table tr {
+    border-bottom: 1px solid #f2f2f2; }
+    .App__table tr.empty {
+      text-align: center; }
+    .App__table tr:hover {
+      background-color: #ddd; }
+
+.App__tableCaption {
+  padding: 8px;
+  font-weight: 600;
+  color: #000;
+  font-size: 18px;
+  text-align: center;
+  caption-side: top; }
+
+.App__table td, table th {
+  padding: 8px; }
+
+.App__table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left; }
+
+.App__newTodoWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px; }
+  .App__newTodoWrapper .App__input {
+    width: 80%; }
+
